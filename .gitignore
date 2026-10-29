@@ -1,0 +1,35 @@
+# Python/generated editor metadata
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Bulk/recoverable research artifacts; track small manifests separately.
+/runs/
+/results/
+/outputs/
+/local-data/
+/checkpoints/
+/cache/
+/archive/
+*.model
+*.ckpt
+*.pt
+*.pth
+*.traj
+*.dcd
+
+# Credentials and licensed pseudopotential payloads
+.env
+.env.*
+!.env.example
+.ssh/
+.certs/
+*.pem
+*.key
+POTCAR
+POTCAR.*
+*.UPF

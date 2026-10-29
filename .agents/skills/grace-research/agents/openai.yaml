@@ -1,0 +1,6 @@
+interface:
+  display_name: "Grace Alloy Research"
+  short_description: "Grace motifs, atomistic methods, and research records"
+  default_prompt: "Use $grace-research to resume my Grace alloy work, verify the current evidence, and complete the requested next step."
+policy:
+  allow_implicit_invocation: true
