@@ -32,8 +32,11 @@ Keep those comparisons separate.
 
 ## What is implemented
 
-This initial repository contains the research skill, its references, a read-only
-normalized single-H insertion checker, and synthetic tests. It does not contain
+This repository contains the research skill, its references, a read-only
+normalized single-H insertion checker, and
+[bond-length/distribution analysis](methods/structure-analysis/README.md), with tests.
+The structure tool extracts per-case and element-pair distributions and minima
+from periodic ASE-readable structures. It does not contain
 completed LAMMPS, DFT, diffusion or phase-field simulation pipelines. Those are
 workflow directions, not claims of generated results or validated solvers.
 
